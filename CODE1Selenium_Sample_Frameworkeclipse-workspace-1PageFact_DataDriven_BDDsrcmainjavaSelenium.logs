@@ -1,0 +1,43 @@
+16:34:11,997 DEBUG RequestAddCookies:123 – CookieSpec selected: default
+16:34:12,040 DEBUG RequestAuthCache:77 – Auth cache not set in the context
+16:34:12,044 DEBUG PoolingHttpClientConnectionManager:265 – Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+16:34:12,075 DEBUG PoolingHttpClientConnectionManager:309 – Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+16:34:12,079 DEBUG MainClientExec:235 – Opening connection {}->http://127.0.0.1:4723
+16:34:12,084 DEBUG DefaultHttpClientConnectionOperator:139 – Connecting to /127.0.0.1:4723
+16:34:12,087 DEBUG DefaultHttpClientConnectionOperator:146 – Connection established 127.0.0.1:52568<->127.0.0.1:4723
+16:34:12,087 DEBUG DefaultManagedHttpClientConnection:88 – http-outgoing-0: set socket timeout to 10800000
+16:34:12,088 DEBUG MainClientExec:256 – Executing request POST /session HTTP/1.1
+16:34:12,088 DEBUG MainClientExec:261 – Target auth state: UNCHALLENGED
+16:34:12,089 DEBUG MainClientExec:267 – Proxy auth state: UNCHALLENGED
+16:34:12,091 DEBUG headers:133 – http-outgoing-0 >> POST /session HTTP/1.1
+16:34:12,091 DEBUG headers:136 – http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+16:34:12,091 DEBUG headers:136 – http-outgoing-0 >> Content-Length: 280
+16:34:12,092 DEBUG headers:136 – http-outgoing-0 >> Host: 127.0.0.1:4723
+16:34:12,092 DEBUG headers:136 – http-outgoing-0 >> Connection: Keep-Alive
+16:34:12,094 DEBUG headers:136 – http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+16:34:12,096 DEBUG headers:136 – http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16:34:12,097 DEBUG wire:73 – http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+16:34:12,097 DEBUG wire:73 – http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+16:34:12,098 DEBUG wire:73 – http-outgoing-0 >> "Content-Length: 280[\r][\n]"
+16:34:12,098 DEBUG wire:73 – http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+16:34:12,099 DEBUG wire:73 – http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16:34:12,099 DEBUG wire:73 – http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)[\r][\n]"
+16:34:12,099 DEBUG wire:73 – http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:34:12,100 DEBUG wire:73 – http-outgoing-0 >> "[\r][\n]"
+16:34:12,100 DEBUG wire:87 – http-outgoing-0 >> "{"capabilities":[{"desiredCapabilities":{"app":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App","platformName":"Windows"}},{"requiredCapabilities":{}}],"desiredCapabilities":{"app":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App","platformName":"Windows"},"requiredCapabilities":{}}"
+16:34:13,499 DEBUG wire:73 – http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16:34:13,499 DEBUG wire:73 – http-outgoing-0 << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+16:34:13,500 DEBUG wire:73 – http-outgoing-0 << "Content-Length: 152[\r][\n]"
+16:34:13,500 DEBUG wire:73 – http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+16:34:13,500 DEBUG wire:73 – http-outgoing-0 << "Date: Sat, 05 Jan 2019 11:04:13 GMT[\r][\n]"
+16:34:13,501 DEBUG wire:73 – http-outgoing-0 << "[\r][\n]"
+16:34:13,507 DEBUG headers:122 – http-outgoing-0 << HTTP/1.1 200 OK
+16:34:13,507 DEBUG headers:125 – http-outgoing-0 << Server: Microsoft-HTTPAPI/2.0
+16:34:13,508 DEBUG headers:125 – http-outgoing-0 << Content-Length: 152
+16:34:13,508 DEBUG headers:125 – http-outgoing-0 << Content-Type: application/json
+16:34:13,508 DEBUG headers:125 – http-outgoing-0 << Date: Sat, 05 Jan 2019 11:04:13 GMT
+16:34:13,517 DEBUG MainClientExec:285 – Connection can be kept alive indefinitely
+16:34:13,527 DEBUG wire:87 – http-outgoing-0 << "{"sessionId":"F3867A89-A1E7-4234-8DAA-C687114A2843","status":0,"value":{"app":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App","platformName":"Windows"}}"
+16:34:13,528 DEBUG PoolingHttpClientConnectionManager:341 – Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+16:34:13,528 DEBUG DefaultManagedHttpClientConnection:88 – http-outgoing-0: set socket timeout to 0
+16:34:13,529 DEBUG PoolingHttpClientConnectionManager:348 – Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]

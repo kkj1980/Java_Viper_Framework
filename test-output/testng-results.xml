@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16426" started-at="2019-01-08T18:37:23Z" finished-at="2019-01-08T18:37:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16426" started-at="2019-01-08T18:37:23Z" finished-at="2019-01-08T18:37:39Z">
+      <class name="Test.PostmanRunTest">
+        <test-method status="PASS" signature="postmanRun()[pri:0, instance:Test.PostmanRunTest@294425a7]" name="postmanRun" duration-ms="16010" started-at="2019-01-08T18:37:23Z" finished-at="2019-01-08T18:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postmanRun -->
+      </class> <!-- Test.PostmanRunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
